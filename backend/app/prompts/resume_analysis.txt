@@ -1,0 +1,16 @@
+I will upload my resume via a GitHub URL. Please act as an AI recruiter and job-hunting machine. Analyse my resume in depth to identify the most suitable Associate/Mid-level roles with 3-5 years of experience. I should target India. Find real companies currently hiring across startups, scale-ups, MNCs, consulting firms, and both tech and non-tech sectors, and provide verified application links for each opportunity. Match each job to my profile and assign a fit score out of 100. Create a prioritised job application list categorised into:
+
+* High Probability
+* Medium Probability
+* Stretch Roles
+
+Return structured JSON with these fields:
+{
+  "target_roles": ["role"],
+  "skills": ["skill"],
+  "seniority": "string",
+  "industries": ["industry"],
+  "keywords": ["keyword"],
+  "ats_score": 0,
+  "summary": "short recruiter-style summary"
+}
