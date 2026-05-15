@@ -9,13 +9,13 @@ export function JobsTable({ jobs }: Props) {
 
   return (
     <section className="mt-10">
-      <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+      <div className="mb-4 flex flex-col gap-1 text-center sm:flex-row sm:items-end sm:justify-between sm:text-left">
         <div>
           <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Top matched jobs</h2>
           <p className="text-sm text-slate-600 dark:text-slate-400">{jobs.length} ranked opportunities across India</p>
         </div>
       </div>
-      <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft dark:border-slate-800 dark:bg-slate-950">
+      <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
         <div className="overflow-x-auto">
           <table className="min-w-full divide-y divide-slate-200 text-left text-sm dark:divide-slate-800">
             <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500 dark:bg-slate-900 dark:text-slate-400">
